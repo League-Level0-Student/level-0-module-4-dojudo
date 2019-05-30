@@ -20,13 +20,12 @@ public class SleepyHead {
          * JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
          */
         int i =JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
-        System.out.println(i);
-        if(i==0) {
         int j =JOptionPane.showConfirmDialog(null, "Is it a vacation?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
-
+        	System.out.println(i);
+        	if(i==0) {
 	JOptionPane.showMessageDialog(null,"get up lazy bones");
 
-}
+        }
 else {
 	JOptionPane.showMessageDialog(null,"sleep in");
 }
