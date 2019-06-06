@@ -26,10 +26,13 @@ public class SleepyHead {
 	JOptionPane.showMessageDialog(null,"get up lazy bones");
 
         }
-else {
+ else  {
 	JOptionPane.showMessageDialog(null,"sleep in");
 }
-/*
+
+        	
+        	/*
+ 
          * Print “sleep in�? if it is a vacation or a weekend. If it’s a weekday,
          * print “get up lazybones!�? If it is a weekday, and we are on vacation,
          * print “sleep in�?.
